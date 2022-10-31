@@ -1,0 +1,54 @@
+.tamanio {
+    font-size: 12px;
+}
+
+@media (min-width: 703px) {
+    .fondoGris {
+        width: 50%;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+    .img1 {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        position: relative;
+        border-color: white;
+        border-style: solid;
+        top: -10px;
+    }
+    .p-sep {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+    }
+    .colorGris {
+        background-color: #c4c4c465;
+        text-align: center;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fondoGris {
+        width: 100%;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+    .img1 {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border-color: white;
+        border-style: solid;
+    }
+    .colorGris {
+        background-color: #c4c4c465;
+        text-align: center;
+        border-radius: 15px;
+    }
+}
+
+.fs-List {
+    font-size: 15px;
+}

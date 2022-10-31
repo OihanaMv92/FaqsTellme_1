@@ -1,0 +1,70 @@
+                .tamanio {
+                    font-size: 12px;
+                }
+                
+                @media (min-width: 768px) {
+                    .background-color-3 {
+                        background-color: rgb(255, 255, 255) !important;
+                    }
+                }
+                
+                @media (min-width: 600px) {
+                    .fondoColor {
+                        background-color: #92919138;
+                    }
+                }
+                
+                .colorIcono {
+                    color: #929191;
+                }
+                
+                @media (min-width: 703px) {
+                    .Circulo {
+                        width: 32px;
+                        height: 32px;
+                        vertical-align: bottom;
+                        border-radius: 50%;
+                        background-color: #ACB4F8;
+                        display: inline-block;
+                        text-align: center;
+                        line-height: 32px;
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: rgb(255, 255, 255);
+                        position: relative;
+                        top: -10px;
+                    }
+                    img {
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+                        position: relative;
+                        border-color: white;
+                        border-style: solid;
+                        top: -10px;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    .Circulo {
+                        width: 20px;
+                        height: 20px;
+                        vertical-align: bottom;
+                        border-radius: 50%;
+                        background-color: #ACB4F8;
+                        display: inline-block;
+                        text-align: center;
+                        line-height: 20px;
+                        font-size: 10px;
+                        font-weight: bold;
+                        color: rgb(255, 255, 255);
+                        position: static;
+                    }
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        border-color: white;
+                        border-style: solid;
+                    }
+                }

@@ -1,0 +1,19 @@
+#navbarColor {
+    background-color: #3044EE;
+    color: rgb(255, 255, 255);
+    align-items: flex-end;
+}
+
+#logo {
+    max-width: 20%;
+    padding-left: 10px;
+    padding-bottom: 20px
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
